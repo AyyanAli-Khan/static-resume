@@ -1,9 +1,16 @@
 {
     "version": 2,
+    "public": true,
     "builds": [
       {
         "src": "resume.html",
         "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/resume.html"
       }
     ]
   }
