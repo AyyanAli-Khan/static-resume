@@ -1,4 +1,3 @@
-"use strict";
 const btn = document.querySelector(".btn");
 const section = document.querySelector(".skills");
 btn.addEventListener("click", function () {
@@ -7,6 +6,5 @@ btn.addEventListener("click", function () {
     }
     else {
         section.style.display = "block";
-        btn.style.display = "none"
     }
 });
