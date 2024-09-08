@@ -1,13 +1,16 @@
 {
     "version": 2,
     "builds": [
-      { "src": "resume.html", "use": "@vercel/static" }
+      {
+        "src": "resume.html",
+        "use": "@vercel/static"
+      }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/$1"
+        "dest": "/resume.html"
       }
     ]
-}
+  }
   
