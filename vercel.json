@@ -1,25 +1,12 @@
 {
     "version": 2,
-    "public": true,
     "builds": [
-      {
-        "src": "resume.html",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "style.css",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "main.js",
-        "use": "@vercel/static"
-      }
+      { "src": "resume.html", "use": "@vercel/static" },
+      { "src": "style.css", "use": "@vercel/static" },
+      { "src": "main.js", "use": "@vercel/static" }
     ],
     "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/resume.html"
-      }
+      { "src": "/(.*)", "dest": "/resume.html" }
     ]
   }
   
